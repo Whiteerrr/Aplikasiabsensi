@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laporan Absensi"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mata Pelajaran"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Indonesia"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matematika"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IPA"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IPS"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan Kewarganegaraan"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seni budaya dan keterampilan"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Inggris"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan agama islam"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPelajaran1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjas"/>
+        <!-- Tambahkan checkbox lain sesuai kebutuhan -->
+
+        <Button
+            android:id="@+id/btnCetakLaporan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cetak"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
